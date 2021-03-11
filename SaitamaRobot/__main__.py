@@ -51,9 +51,13 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hello {},My Name is EMCEE
-I AM A GROUP MANAGING BOT FROM HELL.
-I will help you manage your group.
+𝙷𝙴𝙻𝙻𝙾 {}. 𝙸 𝙰𝙼 𝙴𝙼𝙲𝙴𝙴 !
+
+•|𝙸 𝙰𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃|•
+
+•||𝙸 𝙲𝙰𝙽 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙱𝚈 𝙼𝚈 𝚂𝚄𝙿𝙴𝚁 𝙿𝙾𝚆𝙴𝚁𝚂||•
+
+||•••𝐅𝐑𝐄𝐋𝐋𝐘 𝐀𝐃𝐃 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏•••||
 TO KNOW MY COMMANDS CLICK /help.
 """
 
