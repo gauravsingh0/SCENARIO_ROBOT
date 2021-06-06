@@ -51,11 +51,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝙷𝙴𝙻𝙻𝙾 {}. 𝙸 𝙰𝙼 𝙴𝙼𝙲𝙴𝙴 !
+𝙷𝙴𝙻𝙻𝙾 {}. 𝙸 𝙰𝙼 𝚂𝙲𝙴𝙽𝙰𝚁𝙸𝙾 !
 
-•|𝙸 𝙰𝙼 𝙰𝙽 𝙰𝙽𝙸𝙼𝙴 𝚃𝙷𝙴𝙼𝙴𝙳 𝙶𝚁𝙾𝚄𝙿 𝙼𝙰𝙽𝙰𝙶𝙴𝙼𝙴𝙽𝚃 𝙱𝙾𝚃|•
+•|𝙸 𝙰𝙼 𝚅𝙴𝚁𝚈 𝙼𝚄𝙲𝙷 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙰𝙽𝙸𝙼𝙴 𝙱𝙾𝚃|•
 
 •||𝙸 𝙲𝙰𝙽 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙱𝚈 𝙼𝚈 𝚂𝚄𝙿𝙴𝚁 𝙿𝙾𝚆𝙴𝚁𝚂||•
+•||𝐌𝐘 𝐁𝐅 :- [𝐀𝐊𝐀𝐒𝐇💕](t.me/akku_me)
 
 ||•••𝐅𝐑𝐄𝐋𝐋𝐘 𝐀𝐃𝐃 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏•••||
 TO KNOW MY COMMANDS CLICK /help.
@@ -81,10 +82,10 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/7d87151a7172577be4b0b.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/952c08801dbb4a4a84e7f.jpg"
 
 DONATE_STRING = """donate to the original writer of the Base code, Paul
-There are two ways of supporting him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+There are two ways of supporting him; [BLAZE](paypal.me/piroXpower)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -182,17 +183,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="🔥Add EMCEE To Your Group🔥",
+                              text="➕𝚂𝚄𝙼𝙼𝙾𝙽 𝙼𝙴➕",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [
                               InlineKeyboardButton(
-                              text="🍁Support Group🍁",
-                              url=f"https://t.me/Emceesupport"),
+                              text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃💢",
+                              url=f"https://t.me/scenariosupport"),
                               InlineKeyboardButton(
-                              text="✨Updates Channel✨",
-                              url="https://t.me/EMCEE_SUPPORT")
+                              text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻📢",
+                              url="https://t.me/scenarioXnews")
                           ]])) 
     else:
         update.effective_message.reply_text(
