@@ -51,12 +51,12 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-𝙷𝙴𝙻𝙻𝙾 {}. 𝙸 𝙰𝙼 𝚂𝙲𝙴𝙽𝙰𝚁𝙸𝙾 !
+𝙷𝙴𝙻𝙻𝙾 {}.𝙸 𝙼 𝙶𝚄𝙴𝚂𝚃!
 
 •|𝙸 𝙰𝙼 𝚅𝙴𝚁𝚈 𝙼𝚄𝙲𝙷 𝙿𝙾𝚆𝙴𝚁𝙵𝚄𝙻 𝙰𝙽𝙸𝙼𝙴 𝙱𝙾𝚃|•
 
 •||𝙸 𝙲𝙰𝙽 𝙼𝙰𝙽𝙰𝙶𝙴 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙱𝚈 𝙼𝚈 𝚂𝚄𝙿𝙴𝚁 𝙿𝙾𝚆𝙴𝚁𝚂||•
-•||𝐌𝐘 𝐁𝐅 :- [𝐀𝐊𝐀𝐒𝐇💕](t.me/akku_me)
+•||𝐌𝐘 𝐁𝐅 :- [GAURAV💕](t.me/Black_heart_hacker_xon)
 
 ||•••𝐅𝐑𝐄𝐋𝐋𝐘 𝐀𝐃𝐃 𝐌𝐄 𝐈𝐍 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏•••||
 TO KNOW MY COMMANDS CLICK /help.
@@ -82,7 +82,7 @@ And the following:
     dispatcher.bot.first_name, ""
     if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SAITAMA_IMG = "https://telegra.ph/file/952c08801dbb4a4a84e7f.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/9f76308bc3d5e127ddff7.jpg"
 
 DONATE_STRING = """donate to the original writer of the Base code, Paul
 There are two ways of supporting him; [BLAZE](paypal.me/piroXpower)."""
@@ -183,17 +183,17 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(                   
                           [[
                               InlineKeyboardButton(
-                              text="➕𝚂𝚄𝙼𝙼𝙾𝙽 𝙼𝙴➕",
+                              text="➕ADD TO GROUP➕",
                               url="t.me/{}?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [
                               InlineKeyboardButton(
-                              text="𝚂𝚄𝙿𝙿𝙾𝚁𝚃💢",
-                              url=f"https://t.me/scenariosupport"),
+                              text="SUPPORT💢",
+                              url=f"https://t.me/yone_support_official"),
                               InlineKeyboardButton(
-                              text="𝙲𝙷𝙰𝙽𝙽𝙴𝙻📢",
-                              url="https://t.me/scenarioXnews")
+                              text="CHANNEL📢",
+                              url="https://t.me/guestupdates")
                           ]])) 
     else:
         update.effective_message.reply_text(
