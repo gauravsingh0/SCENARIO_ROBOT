@@ -184,7 +184,7 @@ def start(update: Update, context: CallbackContext):
                           [[
                               InlineKeyboardButton(
                               text="➕ADD TO GROUP➕",
-                              url="t.me/{}?startgroup=true".format(
+                              url="t.me/GROUP_GUEST_BOT?startgroup=true".format(
                                   context.bot.username))
                           ], 
                           [
